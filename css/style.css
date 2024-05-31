@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 320px;
+    height: 497px;
+    box-sizing: border-box; /* Inclui o padding dentro das dimensões especificadas */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+p, h3 {
+    margin-top: 15px; /* Espaço entre a imagem e o texto */
+    /* font-size: 16px; */
+    color: #333;      /* Cor do texto */
+    font-family: "Outfit", sans-serif;
+}
